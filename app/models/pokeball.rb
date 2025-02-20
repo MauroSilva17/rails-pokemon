@@ -1,4 +1,4 @@
 class Pokeball < ApplicationRecord
-  belongs_to :Trainer
-  belongs_to :Pokemon
+  belongs_to :trainer
+  belongs_to :pokemon
 end
